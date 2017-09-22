@@ -1,0 +1,141 @@
+/*
+Theme Name: The Box
+Description: Used to style the TinyMCE editor.
+*/
+
+
+html .mceContentBody {
+	font-size: 15px;
+	max-width: 640px;
+}
+
+body {
+	color: #353535;
+	font-family: 'Oxygen', sans-serif;
+	line-height: 1.65;
+	text-rendering: optimizeLegibility;
+	vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	font-family: 'Oxygen', sans-serif;
+	color: #252525;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 1.4;
+	margin: 20px 0 10px;
+}
+
+h2 {
+	font-size: 22px;
+	line-height: 1.4;
+	font-weight: 700;
+	margin: 20px 0 10px;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 1.4;
+	font-weight: 700;
+	margin: 10px 0;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: 700;
+	margin: 10px 0;
+}
+
+h5 {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 10px 0;
+}
+
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+ul, ol {
+	margin: 0 0 20px 30px;
+	padding: 0 0 0 30px;
+}
+
+ul {
+	list-style: square;
+}
+
+ol {
+	list-style: decimal;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+a {
+	color: #0fa5d9;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0fa5d9;
+	text-decoration: underline;
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin: 0 15px 5px 0;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin: 0 0 5px 15px;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 20px auto;
+}
+
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
